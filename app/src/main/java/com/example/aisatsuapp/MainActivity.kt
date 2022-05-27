@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     textview1.text = "こんにちは"
                 }else if(hour >= 2 && minute >= 0){
                     textview1.text = "おはよう"
+                }else if(hour >= 0 && minute >= 0){
+                    textview1.text = "こんばんは"
                 }
             },
             13, 0, true)
